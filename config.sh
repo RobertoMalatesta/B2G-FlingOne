@@ -31,7 +31,7 @@ case `uname` in
 esac
 
 GITREPO=${GITREPO:-"git://github.com/flingone/b2g-manifest"}
-BRANCH=${BRANCH:-master}
+BRANCH=${BRANCH:-swallow}
 
 while [ $# -ge 1 ]; do
 	case $1 in
